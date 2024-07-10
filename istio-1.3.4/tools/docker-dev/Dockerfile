@@ -1,6 +1,6 @@
 FROM docker:stable as docker
 
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20201014
 ARG goversion=1.12.5
 ARG user
 ARG group
